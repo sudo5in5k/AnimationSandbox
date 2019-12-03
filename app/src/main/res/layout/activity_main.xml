@@ -28,5 +28,25 @@
         android:layout_height="60dp"
         android:background="@drawable/ic_call_black_24dp" />
 
+    <ImageView
+    android:id="@+id/search_iv"
+    android:layout_margin="16dp"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:background="@drawable/ic_search_black_24dp" />
+
+    <ImageView
+        android:id="@+id/like_iv"
+        android:layout_margin="16dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_favorite_black_24dp" />
+
+    <ImageView
+        android:id="@+id/star_iv"
+        android:layout_margin="16dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_star_black_24dp" />
 
 </LinearLayout>

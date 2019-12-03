@@ -3,8 +3,10 @@ package com.example.animationsandbox
 import android.graphics.drawable.TransitionDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.Settings
 import android.view.animation.AnimationUtils
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.coroutines.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -23,5 +25,11 @@ class MainActivity : AppCompatActivity() {
         fadein_iv.startAnimation(AnimationUtils.loadAnimation(this, R.anim.fadein))
 
         call_iv.startAnimation(AnimationUtils.loadAnimation(this, R.anim.rotate))
+
+        search_iv.startAnimation(AnimationUtils.loadAnimation(this, R.anim.zoomin))
+
+        like_iv.startAnimation(AnimationUtils.loadAnimation(this, R.anim.bounce))
+
+        star_iv.startAnimation(AnimationUtils.loadAnimation(this, R.anim.blink))
     }
 }
