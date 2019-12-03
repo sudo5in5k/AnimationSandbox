@@ -21,5 +21,12 @@
         android:layout_height="60dp"
         android:background="@drawable/canada" />
 
+    <ImageView
+        android:id="@+id/call_iv"
+        android:layout_margin="16dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_call_black_24dp" />
+
 
 </LinearLayout>

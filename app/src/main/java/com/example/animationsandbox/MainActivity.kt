@@ -21,5 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         fadein_iv.startAnimation(AnimationUtils.loadAnimation(this, R.anim.fadein))
+
+        call_iv.startAnimation(AnimationUtils.loadAnimation(this, R.anim.rotate))
     }
 }
